@@ -52,7 +52,8 @@ try:
 
         if port_name is None:
             continue
-
+        
+        print(f"Found port {port_name}")
 
         serial = Serial(f"/dev/{port_name}")
 
@@ -68,8 +69,10 @@ try:
                 
                 if not still_connected:
                     break
-                  
+                
                 data = data_queue.get(block=True, timeout=0.01)
+                print(data.decode(), end="")
+
                 serial.write(data)
             except Empty:
                 pass

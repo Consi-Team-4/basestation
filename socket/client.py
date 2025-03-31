@@ -59,4 +59,4 @@ while True:
     steering = axes[2] # Right stick X
     client_socket.send(f"MS {round(300*steering)}\n".encode())
 
-    time.sleep(0.020)
+    time.sleep(0.1)
