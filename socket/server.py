@@ -7,7 +7,7 @@ import json
 
 def socket_to_queue(out_queue: Queue, stop_event: Event):
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind(('rcpi', 9999))
+    server_socket.bind(('0.0.0.0', 9999))
     server_socket.listen()
     server_socket.settimeout(0.01)
 
