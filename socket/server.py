@@ -25,8 +25,7 @@ def socket_to_queue(out_queue: Queue, stop_event: Event):
                 if len(buf) == 0:
                     break
                 else:
-                    data = buf.decode()
-                    out_queue.put(data)
+                    out_queue.put(buf)
 
             except socket.timeout:
                 continue
