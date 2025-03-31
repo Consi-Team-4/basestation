@@ -1,7 +1,8 @@
 import socket
 from threading import Thread, Event
 from queue import Queue, Empty
-import json
+from serial import Serial
+from serial.tools.list_ports import comports
 
 
 
@@ -36,17 +37,43 @@ stop_event = Event()
 socket_thread = Thread(target=socket_to_queue, args=(data_queue, stop_event))
 socket_thread.start()
 
+
 prev_fb_en = 1
 prev_esc_sign = 0
 
 try:
     while True:
-        try:
-            data = data_queue.get(block=True, timeout=0.01)
-            print(data, end="")
-            
-        except Empty:
-            pass
+        # Find nano
+        port_name = None
+
+        for port in comports():
+            if port.description == "Pico - Board CDC":
+                port_name = port.name
+                break
+
+        if port_name is None:
+            continue
+
+
+        serial = Serial(f"/dev/{port_name}")
+
+        while True:
+            try:
+                # Check serial is still open
+                ports = comports()
+                still_connected = False
+                for port in comports():
+                    if port.name == port_name:
+                        still_connected = True
+                        break
+                
+                if not still_connected:
+                    break
+                  
+                data = data_queue.get(block=True, timeout=0.01)
+                serial.write(data)
+            except Empty:
+                pass
         
 
 finally:
