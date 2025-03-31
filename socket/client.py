@@ -11,7 +11,7 @@ joystick.init()
 
 # Initialize client socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client_socket.connect(('localhost', 9999))
+client_socket.connect(('rcpi', 9999))
 
 prev_fb_en = 1
 prev_throttle_pos = 0

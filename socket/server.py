@@ -7,7 +7,7 @@ import json
 
 def socket_to_queue(out_queue: Queue, stop_event: Event):
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind(('localhost', 9999))
+    server_socket.bind(('rcpi', 9999))
     server_socket.listen()
     server_socket.settimeout(0.01)
 
@@ -40,7 +40,6 @@ prev_fb_en = 1
 prev_esc_sign = 0
 
 try:
-
     while True:
         try:
             data = data_queue.get(block=True, timeout=0.01)
