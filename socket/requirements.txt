@@ -1,0 +1,5 @@
+server:
+    pygame
+
+client:
+    pyserial
