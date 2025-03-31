@@ -71,7 +71,7 @@ try:
                     break
                 
                 data = data_queue.get(block=True, timeout=0.01)
-                print(data.decode(), end="")
+                #print(data.decode(), end="")
 
                 serial.write(data)
             except Empty:
