@@ -44,7 +44,7 @@ try:
     while True:
         try:
             data = data_queue.get(block=True, timeout=0.01)
-            print(data)
+            print(data, end="")
             
         except Empty:
             pass
