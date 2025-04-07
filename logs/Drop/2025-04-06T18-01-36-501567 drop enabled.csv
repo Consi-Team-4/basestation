@@ -263,14 +263,8 @@
 305410678,   0.029,  -0.021,  -0.026,  -0.141,  -0.103,   9.843
 305429894,   0.034,   0.002,  -0.026,  -0.159,  -0.097,   9.939
 305451511,  -0.003,   0.010,  -0.016,  -0.210,   0.071,   9.995
-[305458 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=55)
-[305468 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=54)
 305470733,  -0.027,   0.006,  -0.004,  -0.332,   0.079,   9.881
-[305478 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=83)
-[305488 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=80)
 305489949,  -0.033,  -0.005,   0.009,  -0.490,   0.024,   9.732
-[305498 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=93)
-[305508 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=151)
 305511561,  -0.035,  -0.013,   0.009,  -0.661,  -0.042,   9.753
 305530778,   0.000,  -0.006,   0.000,  -0.770,  -0.089,   9.808
 305549995,   0.015,  -0.028,  -0.014,  -0.721,  -0.184,   9.861
@@ -279,14 +273,8 @@
 305612448,   0.012,  -0.068,   0.013,  -0.498,  -0.044,   9.831
 305631664,   0.028,  -0.080,   0.030,  -0.420,  -0.208,   9.890
 305653285,   0.082,  -0.068,   0.042,  -0.402,  -0.145,   9.773
-[305658 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=82)
-[305668 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=71)
 305672500,   0.039,  -0.072,   0.025,  -0.402,   0.017,   9.728
-[305678 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=75)
-[305688 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=110)
 305691716,   0.037,  -0.061,   0.017,  -0.460,   0.057,   9.939
-[305698 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=92)
-[305708 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=423)
 305713338,   0.069,  -0.047,   0.017,  -0.395,   0.235,   9.979
 305732551,   0.044,  -0.047,   0.011,  -0.394,   0.206,   9.905
 305751768,   0.009,  -0.044,   0.006,  -0.455,   0.164,   9.867
@@ -609,17 +597,10 @@
 312112422,   0.197,   0.067,  -0.098,  -2.439,   0.377,   9.052
 312131638,   0.189,   0.077,  -0.092,  -2.607,   0.544,   8.997
 312153257,   0.102,   0.060,  -0.114,  -2.745,   0.778,   9.180
-[312165 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=99)
 312172473,   0.134,   0.034,  -0.104,  -2.832,   0.680,   9.249
-[312175 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=84)
-[312185 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=86)
 312191689,   0.053,   0.004,  -0.116,  -2.649,   0.754,   9.486
-[312195 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=123)
 312213310,   0.003,  -0.042,  -0.131,  -2.430,   0.500,   9.173
-[312225 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=99)
 312232525,  -0.022,  -0.023,  -0.118,  -2.293,   0.524,   9.176
-[312235 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=88)
-[312245 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=112)
 312251741,  -0.044,  -0.011,  -0.111,  -2.294,   0.649,   9.102
 312273363,  -0.056,  -0.055,  -0.098,  -2.352,   0.505,   9.328
 312292576,   0.007,  -0.053,  -0.071,  -2.484,   0.426,   9.173
@@ -633,91 +614,38 @@
 312453516,   0.088,  -0.180,  -0.031,  -2.428,   0.468,   9.238
 312472731,   0.071,  -0.203,  -0.029,  -2.367,   0.522,   9.371
 312494350,   0.059,  -0.208,  -0.025,  -2.282,   0.571,   9.491
-[312515 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=90)
 312513567,   0.075,  -0.212,  -0.016,  -2.136,   0.763,   9.267
-[312525 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=90)
-[312535 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=87)
 312535186,   0.056,  -0.235,  -0.015,  -2.069,   0.751,   9.271
-[312545 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=84)
-[312555 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=93)
 312554402,   0.053,  -0.225,   0.002,  -1.955,   0.406,   9.475
-[312565 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=86)
-[312575 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=98)
 312573619,   0.067,  -0.245,   0.019,  -1.936,   0.499,   9.540
-[312585 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=93)
-[312595 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=99)
 312595237,   0.067,  -0.268,   0.018,  -1.987,   0.496,   9.423
-[312605 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=106)
 312614454,   0.080,  -0.283,   0.006,  -1.929,   0.629,   9.523
 312633670,   0.101,  -0.296,  -0.004,  -1.743,   0.660,   9.600
-[312645 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=99)
-[312655 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=97)
 312655289,   0.107,  -0.290,  -0.004,  -1.578,   0.692,   9.693
-[312665 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=96)
-[312675 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=99)
 312674507,   0.095,  -0.278,   0.013,  -1.553,   0.704,   9.594
-[312685 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=101)
-[312695 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=91)
 312693722,   0.056,  -0.277,   0.030,  -1.502,   0.769,   9.552
-[312705 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=95)
-[312715 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=99)
 312715340,   0.010,  -0.282,   0.049,  -1.461,   0.836,   9.539
-[312725 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=97)
-[312735 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=97)
 312734558,  -0.036,  -0.282,   0.060,  -1.411,   0.826,   9.581
-[312745 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=106)
 312753774,  -0.048,  -0.279,   0.077,  -1.374,   0.700,   9.523
-[312765 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=89)
-[312775 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=88)
 312775393,  -0.027,  -0.247,   0.080,  -1.427,   0.680,   9.705
-[312785 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=84)
-[312795 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=89)
 312794610,   0.019,  -0.230,   0.063,  -1.437,   0.719,   9.866
-[312805 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=91)
-[312815 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=92)
 312813826,   0.039,  -0.224,   0.039,  -1.443,   0.668,   9.805
-[312825 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=94)
-[312835 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=97)
 312833040,   0.056,  -0.219,   0.025,  -1.415,   0.826,   9.794
-[312845 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=99)
-[312855 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=88)
 312854660,   0.038,  -0.231,  -0.002,  -1.385,   0.940,   9.729
-[312865 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=95)
-[312875 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=99)
 312873877,   0.042,  -0.242,  -0.016,  -1.329,   0.945,   9.718
-[312885 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=102)
 312895496,  -0.009,  -0.261,  -0.030,  -1.129,   0.949,   9.609
-[312915 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=98)
 312914712,  -0.028,  -0.273,  -0.035,  -0.964,   0.892,   9.757
-[312925 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=117)
 312933929,  -0.055,  -0.244,  -0.045,  -0.788,   0.892,   9.908
 312955548,  -0.028,  -0.190,  -0.036,  -0.506,   0.645,  10.055
 312974763,   0.003,  -0.146,  -0.022,  -0.303,   0.444,  10.119
-[312995 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=99)
 312993981,   0.028,  -0.089,  -0.009,  -0.126,   0.558,  10.153
-[313005 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=92)
-[313015 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=90)
 313015599,  -0.019,  -0.004,  -0.011,   0.001,   0.717,  10.421
-[313025 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=99)
-[313035 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=98)
 313034815,  -0.071,   0.075,   0.000,   0.026,   0.806,  10.550
-[313045 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=95)
-[313055 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=86)
 313056436,  -0.091,   0.131,   0.016,  -0.163,   0.843,   9.969
-[313065 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=86)
-[313075 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=88)
 313075652,  -0.114,   0.159,   0.003,  -0.581,   0.955,   9.888
-[313085 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=92)
-[313095 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=93)
 313094867,  -0.150,   0.193,  -0.016,  -0.959,   0.796,  10.148
-[313105 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=102)
-[313115 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=97)
 313116488,  -0.221,   0.124,  -0.069,  -1.164,   1.586,  10.260
-[313125 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=94)
-[313135 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=88)
 313135702,  -0.117,   0.036,  -0.096,  -1.639,   0.496,  10.367
-[313145 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=95)
-[313155 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=145)
 313154919,   0.006,   0.053,  -0.112,  -1.575,   0.459,   9.824
 313176535,  -0.054,   0.035,  -0.164,  -1.259,   0.433,   9.751
 313195752,  -0.021,  -0.026,  -0.143,  -0.942,  -0.195,   9.984
@@ -738,24 +666,12 @@
 313498414,   0.049,   0.031,   0.127,   0.256,   0.430,   9.633
 313517628,  -0.051,  -0.062,   0.095,   0.077,   0.226,   9.226
 313536844,   0.091,  -0.070,   0.113,  -0.156,   0.722,   9.171
-[313555 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=96)
 313558465,   0.203,  -0.152,   0.074,  -0.233,   1.186,   9.102
-[313565 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=90)
-[313575 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=95)
 313577681,  -0.103,  -0.140,  -0.018,  -0.259,   1.190,   9.906
-[313585 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=105)
 313596898,  -0.227,  -0.067,  -0.077,  -0.236,   1.511,  10.784
-[313605 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=96)
-[313615 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=96)
 313618516,  -0.141,  -0.007,  -0.095,  -0.431,   1.033,  10.088
-[313625 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=96)
-[313635 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=102)
 313637735,  -0.226,  -0.038,  -0.085,  -1.030,   0.087,   9.186
-[313645 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=99)
-[313655 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=87)
 313656952,  -0.345,  -0.123,  -0.070,  -0.989,   0.192,   9.298
-[313665 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=96)
-[313675 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=108)
 313678567,  -0.337,  -0.179,  -0.046,  -0.893,  -0.067,  10.152
 313697782,  -0.236,  -0.182,  -0.025,  -0.952,  -0.141,  10.133
 313719403,  -0.174,  -0.152,  -0.029,  -1.004,  -0.340,   9.702
@@ -772,19 +688,10 @@
 313940391,  -0.061,  -0.058,  -0.028,   0.051,  -0.175,   9.949
 313959608,  -0.052,  -0.062,  -0.016,   0.103,  -0.225,   9.909
 313978825,  -0.011,  -0.044,  -0.002,   0.138,  -0.182,   9.851
-[313995 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=95)
 314000443,   0.012,  -0.019,   0.001,   0.146,  -0.062,   9.884
-[314005 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=88)
-[314015 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=83)
 314019661,   0.017,  -0.007,  -0.009,   0.092,   0.056,   9.908
-[314025 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=85)
-[314035 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=86)
 314038875,   0.049,  -0.018,  -0.014,  -0.029,  -0.030,   9.914
-[314045 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=87)
-[314054 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=91)
 314060495,   0.042,  -0.026,  -0.019,  -0.123,  -0.044,   9.852
-[314064 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=89)
-[314074 ms] [WARN] LIDAR1 returned invalid or weak signal (Dist=65535, Strength=112)
 314079712,   0.028,  -0.006,  -0.012,  -0.226,  -0.030,   9.837
 314098927,   0.031,   0.007,  -0.006,  -0.292,   0.025,   9.805
 314120545,  -0.013,  -0.011,  -0.005,  -0.391,   0.154,   9.832
