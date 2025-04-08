@@ -74,12 +74,13 @@ all_disabled_var <- apply(all_disabled, 2, var)
 
 
 gyro_scale = 5
+angle_scale = 10
 
 # Long dataframe - good for plotting
 variances <- data.frame(which=rep(c("All Enabled", "No LIDAR", "All Disabled"), each=length(col_names)+3), Variable=rep(c(col_names, "seconds", "pitch", "roll"), 3), val=c(all_enabled_var, no_lidar_var, all_disabled_var))
 variances <- subset(variances, Variable!="micros" & Variable!="seconds")
 variances$val <- sqrt(variances$val)
-variances$val <- variances$val * rep(c(gyro_scale, gyro_scale, gyro_scale, 1, 1, 1, 1, 1), 3)
+variances$val <- variances$val * rep(c(gyro_scale, gyro_scale, gyro_scale, 1, 1, 1, angle_scale, angle_scale), 3)
 
 variances_raw <- subset(variances, Variable!="pitch" & Variable !="roll" & Variable !="gz")
 variances_filtered <- subset(variances, Variable=="pitch" | Variable =="roll")
@@ -92,10 +93,20 @@ plot <- ggplot(variances_raw, aes(x=which, y=val, fill=Variable)) + geom_col(pos
         name="Acceleration (m/s^2)",
         sec.axis = sec_axis(transform=~./gyro_scale, name="Angular Velocity (rad/s)")
     )
-print(plot)
+#print(plot)
 
 plot <- ggplot(variances_filtered, aes(x=which, y=val, fill=Variable)) + geom_col(position="dodge") + xlab("") + theme(text=element_text(size=24)) +
     scale_y_continuous(
         name="Attitude (rad)"
     )
 #print(plot)
+
+variances_presentation <- subset(variances, Variable %in% c("az", "pitch"))
+plot <- ggplot(variances_presentation, aes(x=factor(which, level=c("All Disabled", "No LIDAR", "All Enabled")), y=val, fill=Variable)) +
+    geom_col(position="dodge") + xlab("") + theme(text=element_text(family="serif", size=24)) + coord_fixed(0.7) +
+    scale_fill_manual(labels=c("Az (Jerkiness)", "Pitch (Instability)"), values=c("#1a9988", "#eb5600")) +
+    scale_y_continuous(
+        name="Acceleration (m/s^2)",
+        sec.axis = sec_axis(transform=~./angle_scale, name="Angle (rad)")
+    )
+print(plot)
